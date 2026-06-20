@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Project Name | InAmigos Foundation</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <style>
+        body {
+            background-color: white;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .project-hero {
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background:
+                linear-gradient(rgb(91, 255, 149), rgba(6, 95, 40, 0.8)),
+                url("your-image.jpg");
+
+            background-size: cover;
+            background-position: center;
+
+            color: white;
+        }
+
+        .project-hero h1 {
+            font-family: 'Segoe UI', sans-serif;
+            font-size: 5rem;
+        }
+
+        .project-content {
+            box-shadow: inset 0 15px 20px -10px rgba(34, 197, 94);
+
+            background-color: white;
+            color: black;
+            padding: 100px 8%;
+
+            margin: auto;
+            line-height: 2;
+
+        }
+
+
+
+
+
+        .project-hero p {
+            font-family: 'Segoe UI', sans-serif;
+            font-weight: 500;
+        }
+
+        .back-btn {
+            text-decoration: none;
+            background-color: white;
+            font-weight: bold;
+            color: #166534;
+            margin: 30px;
+            padding: 10px 20px;
+            display: inline-block;
+            border-radius: 35px;
+            transform: all .3s;
+
+        }
+
+        .back-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+            gap: 100px;
+        }
+
+        .photo {
+            margin-bottom: 2rem;
+        }
+
+        .photo img {
+            width: 550px;
+            height: 500px;
+        }
+
+        .project-content{
+            display: flex;
+            flex-direction: column;
+            
+            font-family:Verdana, Geneva, Tahoma, sans-serif
+        }
+
+        .qr {
+            justify-content: center;
+            align-self: center;
+        }
+
+        .qr img {
+            width: 550px;
+            height: 500px;
+        }
+
+        @media (max-width: 535px) {
+
+
+            .project-hero h1 {
+                font-family: 'Segoe UI', sans-serif;
+                font-size: 2.75rem;
+            }
+
+
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <section class="project-hero">
+
+        <div>
+
+            <h1>Donate Us</h1>
+            <p>
+                At InAmigos Foundation, we're spreading smiles always
+            </p>
+
+            <a href="index.html" class="back-btn">
+                Back To Home
+            </a>
+        </div>
+
+    </section>
+
+    <section class="project-content">
+
+
+        <div class="content">
+            <div>
+                <div class="photo">
+                    <img src="donate1.jpeg" alt="">
+                </div>
+                <div class="highlight">
+                    <h2>Every Smile Has a Story</h2>
+                    <ul>
+                        <li>These smiles </li>
+                        <li>These full plates</li>
+                        <li>They're possible because someone chose to care</li>
+                    </ul>
+                    <p>A small act of goodness can light up someone's day with happiness and a warm meal</p>
+                    <p><b> Because behind every joyful face there's a heart like yours</b></p>
+                    <p>At InAmigos Foundation, we're spreading smiles always</p>
+                </div>
+            </div>
+            <div>
+                <div class="photo">
+                    <img src="donate2.jpeg" alt="">
+                </div>
+                <div class="highlight">
+                    <h2>A Small Act. A Big Impact.</h2>
+                    <ul>
+                        <li>I give not because I have much</li>
+                        <li>But because I know a little can mean everything to someone else</li>
+                    </ul>
+                    <p>From a warm meal to a rescued animal
+                        From street smiles to silent blessings
+                        Every small contribution counts</p>
+                    <p>At InAmigos Foundation we believe in support that truly reaches hearts.</p>
+                    <p>And every time you give
+                        you become part of that change.</p>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="qr">
+        <img src="qr.jpeg" alt="">
+    </div>
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
